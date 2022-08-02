@@ -1,0 +1,111 @@
+
+.container {
+
+  max-width: 1200px;
+  margin: 0% auto;
+}
+.menu {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: auto;
+
+}
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+}
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.products-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  width: 24%;
+  border-radius: 8px;
+  background-color: white;
+  margin-block-end: 6px;
+  margin-top: 20px;
+  height: 390px;
+  text-align: center;
+  line-height: 20px;
+  position: relative;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.foto-produto {
+ padding-top: 15px;
+}
+.button-add{
+  color: #f5f5f5;
+  background-color: #4c6ef5;
+  border-radius: 5px;
+  height: 10%;
+  width: 90%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.button-add:hover {
+    background-color: #2077c9; 
+    color: white;}
+p {
+  text-align: left;
+  margin-right: 5%;
+  margin-left: 5%;
+
+  font-size: 85%;
+  font-weight: 500;
+
+}
+ .p-link{
+    position: absolute;
+    bottom: 30%;
+ }
+ .p-price{
+    position: absolute;
+    bottom: 18%;
+ }
+.link-produto {
+  color: black;
+  text-decoration: dotted;
+}
