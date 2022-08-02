@@ -28,7 +28,7 @@
 .menu-nav ul {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 20px;
 }
 .menu-nav ul li a {
   text-decoration: none;
